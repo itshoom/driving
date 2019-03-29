@@ -1,0 +1,7 @@
+country = input('请问是哪国人: ')
+age = input('请输入年龄: ')
+if country == '中国':
+    if int(age) >= 18:
+        print('你可以考驾照')
+    else:
+        print('你还不能考驾照')
